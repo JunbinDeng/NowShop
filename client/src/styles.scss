@@ -1,5 +1,20 @@
-@use "tailwindcss";
+@import "tailwindcss" important;
+
+.mdc-button,
+.mdc-raised-button,
+.mdc-stroked-button,
+.mdc-flat-button {
+  @apply rounded-md;
+}
 
 .container {
   @apply mx-auto w-full max-w-9/10;
+}
+
+.text-primary {
+  color: #7d00fa;
+}
+
+button.match-input-height {
+  height: var(--mat-form-field-container-height);
 }
