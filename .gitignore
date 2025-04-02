@@ -482,3 +482,7 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# The files typically contain sensitive information
+# Should not be tracked in version control for security reasons
+appsettings.json
