@@ -8,5 +8,5 @@ public class PaymentSummary
 
     public int ExpMonth { get; set; }
 
-    public int Year { get; set; }
+    public int ExpYear { get; set; }
 }
