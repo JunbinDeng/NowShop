@@ -1,164 +1,101 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "PictureUrl": "/images/products/sb-ang1.png",
-    "Type": "Boards",
-    "Brand": "Angular",
-    "QuantityInStock": 82
+    "Name": "Sponsor Cents",
+    "Description": "Every bit counts! Your small contribution helps NowShop continue improving and delivering better experiences for everyone. Thank you for your support!",
+    "Price": 0.5,
+    "PictureUrl": "/images/products/thank_you_sponsor.png",
+    "Type": "Unlimited",
+    "Brand": "NowShop",
+    "QuantityInStock": 99
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "/images/products/sb-ang2.png",
-    "Type": "Boards",
-    "Brand": "Angular",
-    "QuantityInStock": 75
+    "Name": "Sponsor Dollar",
+    "Description": "Thank you for going the extra mile! Your sponsorship helps keep NowShop running smoothly and supports new features and community-driven growth.",
+    "Price": 1,
+    "PictureUrl": "/images/products/thank_you_sponsor.png",
+    "Type": "Unlimited",
+    "Brand": "NowShop",
+    "QuantityInStock": 99
   },
   {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "/images/products/sb-core1.png",
-    "Type": "Boards",
-    "Brand": "NetCore",
-    "QuantityInStock": 3
+    "Name": "Netflix 1 Month Shared",
+    "Description": "Unlimited worldwide streaming in stunning 4K Ultra HD with a premium shared account—enjoy your favorite shows and movies on any device for a full month.",
+    "Price": 29,
+    "PictureUrl": "/images/products/netfilx_membership.png",
+    "Type": "1 Month",
+    "Brand": "Netflix",
+    "QuantityInStock": 99
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Name": "Netflix 3 Months Shared",
+    "Description": "Unlimited worldwide streaming in stunning 4K Ultra HD with a premium shared account—enjoy your favorite shows and movies on any device for a full 3 months.",
+    "Price": 83,
+    "PictureUrl": "/images/products/netfilx_membership.png",
+    "Type": "3 Month",
+    "Brand": "Netflix",
+    "QuantityInStock": 99
+  },
+  {
+    "Name": "Netflix 12 Months Shared",
+    "Description": "Unlimited worldwide streaming in stunning 4K Ultra HD with a premium shared account—enjoy your favorite shows and movies on any device for a full 12 months.",
+    "Price": 320,
+    "PictureUrl": "/images/products/netfilx_membership.png",
+    "Type": "12 Month",
+    "Brand": "Netflix",
+    "QuantityInStock": 99
+  },
+  {
+    "Name": "Disney 12 Months Shared",
+    "Description": "Enjoy 12 months of unlimited streaming on Disney+ in stunning 4K Ultra HD. Access a shared premium account and watch your favorite Disney, Marvel, Star Wars, and Pixar content on any device worldwide.",
+    "Price": 199,
+    "PictureUrl": "/images/products/disney_membership.png",
+    "Type": "12 Month",
+    "Brand": "Disney",
+    "QuantityInStock": 99
+  },
+  {
+    "Name": "Youtube 12 Months Individual",
+    "Description": "Enjoy 12 months of unlimited streaming on Disney+ in stunning 4K Ultra HD. Access a shared premium account and watch your favorite Disney, Marvel, Star Wars, and Pixar content on any device worldwide.",
+    "Price": 240,
+    "PictureUrl": "/images/products/youtube_membership.png",
+    "Type": "12 Month",
+    "Brand": "Youtube",
+    "QuantityInStock": 99
+  },
+  {
+    "Name": "HBO Max 12 Months Shared",
+    "Description": "Stream blockbuster movies, HBO originals, and hit series in stunning 4K Ultra HD with a premium shared HBO Max account. Enjoy 12 months of unlimited entertainment on all your favorite devices.",
+    "Price": 259,
+    "PictureUrl": "/images/products/hbomax_membership.png",
+    "Type": "12 Month",
+    "Brand": "HBO",
+    "QuantityInStock": 99
+  },
+  {
+    "Name": "Apple TV 24 Months Shared",
+    "Description": "Enjoy 24 months of premium Apple TV+ streaming with a shared account. Watch award-winning originals, hit movies, and exclusive series in brilliant 4K on all your Apple and non-Apple devices.",
     "Price": 300,
-    "PictureUrl": "/images/products/sb-core2.png",
-    "Type": "Boards",
-    "Brand": "NetCore",
-    "QuantityInStock": 52
+    "PictureUrl": "/images/products/appletv_membership.png",
+    "Type": "24 Month",
+    "Brand": "Apple",
+    "QuantityInStock": 99
   },
   {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "/images/products/sb-react1.png",
-    "Type": "Boards",
-    "Brand": "React",
-    "QuantityInStock": 97
+    "Name": "Prime 6 Months Individual",
+    "Description": "Access 6 months of Amazon Prime Video with an individual account. Stream a wide selection of blockbuster films, hit series, and exclusive originals in HD or 4K on any device.",
+    "Price": 55,
+    "PictureUrl": "/images/products/prime_membership.png",
+    "Type": "6 Month",
+    "Brand": "Prime",
+    "QuantityInStock": 99
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "/images/products/sb-ts1.png",
-    "Type": "Boards",
-    "Brand": "Typescript",
-    "QuantityInStock": 37
-  },
-  {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "/images/products/hat-core1.png",
-    "Type": "Hats",
-    "Brand": "NetCore",
-    "QuantityInStock": 32
-  },
-  {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "/images/products/hat-react1.png",
-    "Type": "Hats",
-    "Brand": "React",
-    "QuantityInStock": 6
-  },
-  {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "/images/products/hat-react2.png",
-    "Type": "Hats",
-    "Brand": "React",
-    "QuantityInStock": 17
-  },
-  {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "/images/products/glove-code1.png",
-    "Type": "Gloves",
-    "Brand": "VS Code",
-    "QuantityInStock": 74
-  },
-  {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "/images/products/glove-code2.png",
-    "Type": "Gloves",
-    "Brand": "VS Code",
-    "QuantityInStock": 19
-  },
-  {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "/images/products/glove-react1.png",
-    "Type": "Gloves",
-    "Brand": "React",
-    "QuantityInStock": 77
-  },
-  {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "/images/products/glove-react2.png",
-    "Type": "Gloves",
-    "Brand": "React",
-    "QuantityInStock": 45
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "/images/products/boot-redis1.png",
-    "Type": "Boots",
-    "Brand": "Redis",
-    "QuantityInStock": 49
-  },
-  {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "/images/products/boot-core2.png",
-    "Type": "Boots",
-    "Brand": "NetCore",
-    "QuantityInStock": 28
-  },
-  {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "/images/products/boot-core1.png",
-    "Type": "Boots",
-    "Brand": "NetCore",
-    "QuantityInStock": 69
-  },
-  {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "/images/products/boot-ang2.png",
-    "Type": "Boots",
-    "Brand": "Angular",
-    "QuantityInStock": 35
-  },
-  {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Name": "Spotify 12 Months Individual",
+    "Description": "Get 12 months of uninterrupted Spotify Premium. Enjoy ad-free music, unlimited skips, and high-quality audio streaming across all your devices anytime, anywhere.",
     "Price": 180,
-    "PictureUrl": "/images/products/boot-ang1.png",
-    "Type": "Boots",
-    "Brand": "Angular",
-    "QuantityInStock": 27
+    "PictureUrl": "/images/products/spotify_membership.png",
+    "Type": "12 Month",
+    "Brand": "Spotify",
+    "QuantityInStock": 99
   }
 ]

@@ -49,7 +49,7 @@ public class PaymentService(IConfiguration config,
             {
                 Amount = (long)cart.Items.Sum(x => x.Quantity * (x.Price * 100))
                     + (long)shippingPrice * 100,
-                Currency = "usd",
+                Currency = "nzd",
                 PaymentMethodTypes = ["card"]
             };
             intent = await service.CreateAsync(options);
