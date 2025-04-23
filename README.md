@@ -94,6 +94,43 @@ cd NowShop/client/ssl
    ng serve
    ```
 
+## Local Payment Webhook Setup
+
+For local testing of Stripe payment events, follow these steps:
+
+1. **Listen for Webhook Events Locally**
+
+Install and log in to the Stripe CLI, then run:
+
+```bash
+stripe listen --forward-to https://localhost:5001/api/payments/webhook -e payment_intent.succeeded
+```
+
+This command forwards `payment_intent.succeeded` events to your local webhook endpoint.
+
+2. **Add `appsettings.json` Configuration**
+
+In the `API` project root, create an `appsettings.json` file with the following content:
+
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "StripeSettings": {
+    "PublishableKey": "<YOUR_STRIPE_TEST_PUBLISHABLE_KEY>",
+    "SecretKey": "<YOUR_STRIPE_TEST_SECRET_KEY>",
+    "WebhookSecret": "<YOUR_STRIPE_TEST_WEBHOOK_SECRET>"
+  },
+  "AllowedHosts": "*"
+}
+```
+
+Replace these keys with your own values from the Stripe Dashboard.
+
 ## Usage
 
 Access NowShop at `http://localhost:4200` to explore products, manage your shopping cart, and complete purchases.
